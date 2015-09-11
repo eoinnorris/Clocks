@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2938BB47177610B300FCCE29 /* movie2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2938BB46177610B300FCCE29 /* movie2.mov */; };
+		2938BB491776159900FCCE29 /* Beautiful Day.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2938BB481776159900FCCE29 /* Beautiful Day.mp4 */; };
+		2938BB4B1776165400FCCE29 /* Is it Better to Walk or Run in the Rain_.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2938BB4A1776165400FCCE29 /* Is it Better to Walk or Run in the Rain_.mp4 */; };
+		2938BB4D177616AD00FCCE29 /* Queen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2938BB4C177616AD00FCCE29 /* Queen.mp4 */; };
+		294E9B6C176B501A0021E964 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294E9B6B176B501A0021E964 /* Cocoa.framework */; };
+		294E9B6E176B501A0021E964 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294E9B6D176B501A0021E964 /* SpriteKit.framework */; };
+		294E9B78176B501A0021E964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B76176B501A0021E964 /* InfoPlist.strings */; };
+		294E9B7A176B501A0021E964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9B79176B501A0021E964 /* main.m */; };
+		294E9B7E176B501A0021E964 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B7C176B501A0021E964 /* Credits.rtf */; };
+		294E9B80176B501A0021E964 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B7F176B501A0021E964 /* MainMenu.xib */; };
+		294E9B82176B501A0021E964 /* ClockScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9B81176B501A0021E964 /* ClockScene.m */; };
+		294E9B85176B501A0021E964 /* ENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9B84176B501A0021E964 /* ENAppDelegate.m */; };
+		294E9B88176B501A0021E964 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B87176B501A0021E964 /* Spaceship.png */; };
+		294E9B8A176B501A0021E964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B89176B501A0021E964 /* Images.xcassets */; };
+		294E9B91176B501B0021E964 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294E9B90176B501A0021E964 /* XCTest.framework */; };
+		294E9B92176B501B0021E964 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 294E9B6B176B501A0021E964 /* Cocoa.framework */; };
+		294E9B9A176B501B0021E964 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 294E9B98176B501B0021E964 /* InfoPlist.strings */; };
+		294E9B9C176B501B0021E964 /* WeatherClocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9B9B176B501B0021E964 /* WeatherClocksTests.m */; };
+		294E9BA7176CC3580021E964 /* Led.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9BA6176CC3580021E964 /* Led.m */; };
+		294E9BAA176CC71E0021E964 /* DateTimeLedContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9BA9176CC71E0021E964 /* DateTimeLedContoller.m */; };
+		294E9BAF176CD01B0021E964 /* FallingLeavesClockScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9BAE176CD01B0021E964 /* FallingLeavesClockScene.m */; };
+		294E9BB5176CE1DE0021E964 /* LedSpriteContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9BB4176CE1DE0021E964 /* LedSpriteContainer.m */; };
+		294E9BB8176CE7C20021E964 /* PhysicsClockItemSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 294E9BB7176CE7C20021E964 /* PhysicsClockItemSprite.m */; };
+		295F360A176CFCC70018F302 /* leaf_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 295F3608176CFCC70018F302 /* leaf_00.png */; };
+		295F360B176CFCC70018F302 /* leaf_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 295F3609176CFCC70018F302 /* leaf_02.png */; };
+		298F8D92176D2D90002460AD /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 298F8D91176D2D90002460AD /* Fire.sks */; };
+		299D2011176D2086002A5D6B /* WCGraphicUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 299D2010176D1E6A002A5D6B /* WCGraphicUtilities.m */; };
+		29A9BE52176F7EEC001782AA /* RainBig.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29A9BE51176F7EEC001782AA /* RainBig.sks */; };
+		29DFAB88176D1B79005E48D1 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29DFAB86176D1B79005E48D1 /* Rain.sks */; };
+		29DFAB89176D1B79005E48D1 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DFAB87176D1B79005E48D1 /* spark.png */; };
+		29F677DF176FC29C005691CD /* LeafClockItemFallingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F677DE176FC29C005691CD /* LeafClockItemFallingSprite.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		294E9B93176B501B0021E964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294E9B60176B501A0021E964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294E9B67176B501A0021E964;
+			remoteInfo = WeatherClocks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2938BB46177610B300FCCE29 /* movie2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = movie2.mov; sourceTree = "<group>"; };
+		2938BB481776159900FCCE29 /* Beautiful Day.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beautiful Day.mp4"; sourceTree = "<group>"; };
+		2938BB4A1776165400FCCE29 /* Is it Better to Walk or Run in the Rain_.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is it Better to Walk or Run in the Rain_.mp4"; sourceTree = "<group>"; };
+		2938BB4C177616AD00FCCE29 /* Queen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Queen.mp4; sourceTree = "<group>"; };
+		294E9B68176B501A0021E964 /* WeatherClocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherClocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		294E9B6B176B501A0021E964 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		294E9B6D176B501A0021E964 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		294E9B70176B501A0021E964 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		294E9B71176B501A0021E964 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		294E9B72176B501A0021E964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		294E9B75176B501A0021E964 /* WeatherClocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherClocks-Info.plist"; sourceTree = "<group>"; };
+		294E9B77176B501A0021E964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		294E9B79176B501A0021E964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		294E9B7B176B501A0021E964 /* WeatherClocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherClocks-Prefix.pch"; sourceTree = "<group>"; };
+		294E9B7D176B501A0021E964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		294E9B7F176B501A0021E964 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		294E9B81176B501A0021E964 /* ClockScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockScene.m; sourceTree = "<group>"; };
+		294E9B83176B501A0021E964 /* ClockScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockScene.h; sourceTree = "<group>"; };
+		294E9B84176B501A0021E964 /* ENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ENAppDelegate.m; sourceTree = "<group>"; };
+		294E9B86176B501A0021E964 /* ENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ENAppDelegate.h; sourceTree = "<group>"; };
+		294E9B87176B501A0021E964 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		294E9B89176B501A0021E964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		294E9B8F176B501A0021E964 /* WeatherClocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = WeatherClocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294E9B90176B501A0021E964 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		294E9B97176B501B0021E964 /* WeatherClocksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherClocksTests-Info.plist"; sourceTree = "<group>"; };
+		294E9B99176B501B0021E964 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		294E9B9B176B501B0021E964 /* WeatherClocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherClocksTests.m; sourceTree = "<group>"; };
+		294E9BA5176CC3580021E964 /* Led.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Led.h; sourceTree = "<group>"; };
+		294E9BA6176CC3580021E964 /* Led.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Led.m; sourceTree = "<group>"; };
+		294E9BA8176CC71E0021E964 /* DateTimeLedContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeLedContoller.h; sourceTree = "<group>"; };
+		294E9BA9176CC71E0021E964 /* DateTimeLedContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeLedContoller.m; sourceTree = "<group>"; };
+		294E9BAD176CD01B0021E964 /* FallingLeavesClockScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallingLeavesClockScene.h; sourceTree = "<group>"; };
+		294E9BAE176CD01B0021E964 /* FallingLeavesClockScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallingLeavesClockScene.m; sourceTree = "<group>"; };
+		294E9BB3176CE1DE0021E964 /* LedSpriteContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LedSpriteContainer.h; sourceTree = "<group>"; };
+		294E9BB4176CE1DE0021E964 /* LedSpriteContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LedSpriteContainer.m; sourceTree = "<group>"; };
+		294E9BB6176CE7C20021E964 /* PhysicsClockItemSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsClockItemSprite.h; sourceTree = "<group>"; };
+		294E9BB7176CE7C20021E964 /* PhysicsClockItemSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsClockItemSprite.m; sourceTree = "<group>"; };
+		295F3608176CFCC70018F302 /* leaf_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_00.png; sourceTree = "<group>"; };
+		295F3609176CFCC70018F302 /* leaf_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf_02.png; sourceTree = "<group>"; };
+		298F8D91176D2D90002460AD /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Fire.sks; path = WeatherClocks/Fire.sks; sourceTree = "<group>"; };
+		298F8D93176D2E62002460AD /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		298F8D94176D2E62002460AD /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		298F8D95176D2E9F002460AD /* magic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = magic.sks; sourceTree = "<group>"; };
+		298F8D96176D2ED6002460AD /* fireflies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireflies.sks; sourceTree = "<group>"; };
+		298F8D97176D2F23002460AD /* smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoke.sks; sourceTree = "<group>"; };
+		298F8D98176D2F5F002460AD /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+		298F8D99176D2FA7002460AD /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
+		299D200F176D1E6A002A5D6B /* WCGraphicUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCGraphicUtilities.h; sourceTree = "<group>"; };
+		299D2010176D1E6A002A5D6B /* WCGraphicUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCGraphicUtilities.m; sourceTree = "<group>"; };
+		29A9BE51176F7EEC001782AA /* RainBig.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainBig.sks; sourceTree = "<group>"; };
+		29DFAB86176D1B79005E48D1 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
+		29DFAB87176D1B79005E48D1 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		29F677DD176FC29C005691CD /* LeafClockItemFallingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafClockItemFallingSprite.h; sourceTree = "<group>"; };
+		29F677DE176FC29C005691CD /* LeafClockItemFallingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafClockItemFallingSprite.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294E9B65176B501A0021E964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E9B6E176B501A0021E964 /* SpriteKit.framework in Frameworks */,
+				294E9B6C176B501A0021E964 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294E9B8C176B501A0021E964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E9B92176B501B0021E964 /* Cocoa.framework in Frameworks */,
+				294E9B91176B501B0021E964 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290A77BC18C36D6D00FC625F /* Clock API */ = {
+			isa = PBXGroup;
+			children = (
+				294E9BB6176CE7C20021E964 /* PhysicsClockItemSprite.h */,
+				294E9BB7176CE7C20021E964 /* PhysicsClockItemSprite.m */,
+				294E9BA8176CC71E0021E964 /* DateTimeLedContoller.h */,
+				294E9BA9176CC71E0021E964 /* DateTimeLedContoller.m */,
+				294E9BA5176CC3580021E964 /* Led.h */,
+				294E9BA6176CC3580021E964 /* Led.m */,
+				294E9BB3176CE1DE0021E964 /* LedSpriteContainer.h */,
+				294E9BB4176CE1DE0021E964 /* LedSpriteContainer.m */,
+				294E9B83176B501A0021E964 /* ClockScene.h */,
+				294E9B81176B501A0021E964 /* ClockScene.m */,
+			);
+			name = "Clock API";
+			sourceTree = "<group>";
+		};
+		294E9B5F176B501A0021E964 = {
+			isa = PBXGroup;
+			children = (
+				298F8D91176D2D90002460AD /* Fire.sks */,
+				294E9B73176B501A0021E964 /* WeatherClocks */,
+				294E9B95176B501B0021E964 /* WeatherClocksTests */,
+				294E9B6A176B501A0021E964 /* Frameworks */,
+				294E9B69176B501A0021E964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		294E9B69176B501A0021E964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294E9B68176B501A0021E964 /* WeatherClocks.app */,
+				294E9B8F176B501A0021E964 /* WeatherClocksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294E9B6A176B501A0021E964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				294E9B6B176B501A0021E964 /* Cocoa.framework */,
+				294E9B6D176B501A0021E964 /* SpriteKit.framework */,
+				294E9B90176B501A0021E964 /* XCTest.framework */,
+				294E9B6F176B501A0021E964 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		294E9B6F176B501A0021E964 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				294E9B70176B501A0021E964 /* AppKit.framework */,
+				294E9B71176B501A0021E964 /* CoreData.framework */,
+				294E9B72176B501A0021E964 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		294E9B73176B501A0021E964 /* WeatherClocks */ = {
+			isa = PBXGroup;
+			children = (
+				29F677DD176FC29C005691CD /* LeafClockItemFallingSprite.h */,
+				29F677DE176FC29C005691CD /* LeafClockItemFallingSprite.m */,
+				299D2010176D1E6A002A5D6B /* WCGraphicUtilities.m */,
+				299D200F176D1E6A002A5D6B /* WCGraphicUtilities.h */,
+				298F8D93176D2E62002460AD /* MyParticle.sks */,
+				298F8D95176D2E9F002460AD /* magic.sks */,
+				298F8D96176D2ED6002460AD /* fireflies.sks */,
+				298F8D97176D2F23002460AD /* smoke.sks */,
+				298F8D99176D2FA7002460AD /* snow.sks */,
+				298F8D98176D2F5F002460AD /* spark.sks */,
+				298F8D94176D2E62002460AD /* bokeh.png */,
+				294E9BAD176CD01B0021E964 /* FallingLeavesClockScene.h */,
+				294E9BAE176CD01B0021E964 /* FallingLeavesClockScene.m */,
+				294E9B7F176B501A0021E964 /* MainMenu.xib */,
+				290A77BC18C36D6D00FC625F /* Clock API */,
+				29DFAB86176D1B79005E48D1 /* Rain.sks */,
+				29A9BE51176F7EEC001782AA /* RainBig.sks */,
+				29DFAB87176D1B79005E48D1 /* spark.png */,
+				294E9B84176B501A0021E964 /* ENAppDelegate.m */,
+				294E9B86176B501A0021E964 /* ENAppDelegate.h */,
+				294E9B87176B501A0021E964 /* Spaceship.png */,
+				295F3608176CFCC70018F302 /* leaf_00.png */,
+				295F3609176CFCC70018F302 /* leaf_02.png */,
+				294E9B89176B501A0021E964 /* Images.xcassets */,
+				294E9B74176B501A0021E964 /* Supporting Files */,
+			);
+			path = WeatherClocks;
+			sourceTree = "<group>";
+		};
+		294E9B74176B501A0021E964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2938BB4C177616AD00FCCE29 /* Queen.mp4 */,
+				2938BB4A1776165400FCCE29 /* Is it Better to Walk or Run in the Rain_.mp4 */,
+				2938BB481776159900FCCE29 /* Beautiful Day.mp4 */,
+				2938BB46177610B300FCCE29 /* movie2.mov */,
+				294E9B75176B501A0021E964 /* WeatherClocks-Info.plist */,
+				294E9B76176B501A0021E964 /* InfoPlist.strings */,
+				294E9B79176B501A0021E964 /* main.m */,
+				294E9B7B176B501A0021E964 /* WeatherClocks-Prefix.pch */,
+				294E9B7C176B501A0021E964 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		294E9B95176B501B0021E964 /* WeatherClocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				294E9B9B176B501B0021E964 /* WeatherClocksTests.m */,
+				294E9B96176B501B0021E964 /* Supporting Files */,
+			);
+			path = WeatherClocksTests;
+			sourceTree = "<group>";
+		};
+		294E9B96176B501B0021E964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				294E9B97176B501B0021E964 /* WeatherClocksTests-Info.plist */,
+				294E9B98176B501B0021E964 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		294E9B67176B501A0021E964 /* WeatherClocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294E9B9F176B501B0021E964 /* Build configuration list for PBXNativeTarget "WeatherClocks" */;
+			buildPhases = (
+				294E9B64176B501A0021E964 /* Sources */,
+				294E9B65176B501A0021E964 /* Frameworks */,
+				294E9B66176B501A0021E964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherClocks;
+			productName = WeatherClocks;
+			productReference = 294E9B68176B501A0021E964 /* WeatherClocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		294E9B8E176B501A0021E964 /* WeatherClocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294E9BA2176B501B0021E964 /* Build configuration list for PBXNativeTarget "WeatherClocksTests" */;
+			buildPhases = (
+				294E9B8B176B501A0021E964 /* Sources */,
+				294E9B8C176B501A0021E964 /* Frameworks */,
+				294E9B8D176B501A0021E964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294E9B94176B501B0021E964 /* PBXTargetDependency */,
+			);
+			name = WeatherClocksTests;
+			productName = WeatherClocksTests;
+			productReference = 294E9B8F176B501A0021E964 /* WeatherClocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		294E9B60176B501A0021E964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Occasionally Useful Software";
+				TargetAttributes = {
+					294E9B8E176B501A0021E964 = {
+						TestTargetID = 294E9B67176B501A0021E964;
+					};
+				};
+			};
+			buildConfigurationList = 294E9B63176B501A0021E964 /* Build configuration list for PBXProject "WeatherClocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 294E9B5F176B501A0021E964;
+			productRefGroup = 294E9B69176B501A0021E964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294E9B67176B501A0021E964 /* WeatherClocks */,
+				294E9B8E176B501A0021E964 /* WeatherClocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294E9B66176B501A0021E964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2938BB4D177616AD00FCCE29 /* Queen.mp4 in Resources */,
+				294E9B88176B501A0021E964 /* Spaceship.png in Resources */,
+				29DFAB89176D1B79005E48D1 /* spark.png in Resources */,
+				295F360B176CFCC70018F302 /* leaf_02.png in Resources */,
+				298F8D92176D2D90002460AD /* Fire.sks in Resources */,
+				295F360A176CFCC70018F302 /* leaf_00.png in Resources */,
+				2938BB4B1776165400FCCE29 /* Is it Better to Walk or Run in the Rain_.mp4 in Resources */,
+				294E9B8A176B501A0021E964 /* Images.xcassets in Resources */,
+				2938BB491776159900FCCE29 /* Beautiful Day.mp4 in Resources */,
+				29DFAB88176D1B79005E48D1 /* Rain.sks in Resources */,
+				294E9B78176B501A0021E964 /* InfoPlist.strings in Resources */,
+				2938BB47177610B300FCCE29 /* movie2.mov in Resources */,
+				294E9B7E176B501A0021E964 /* Credits.rtf in Resources */,
+				29A9BE52176F7EEC001782AA /* RainBig.sks in Resources */,
+				294E9B80176B501A0021E964 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294E9B8D176B501A0021E964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E9B9A176B501B0021E964 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294E9B64176B501A0021E964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E9B85176B501A0021E964 /* ENAppDelegate.m in Sources */,
+				294E9BA7176CC3580021E964 /* Led.m in Sources */,
+				29F677DF176FC29C005691CD /* LeafClockItemFallingSprite.m in Sources */,
+				294E9B7A176B501A0021E964 /* main.m in Sources */,
+				294E9BAF176CD01B0021E964 /* FallingLeavesClockScene.m in Sources */,
+				294E9BAA176CC71E0021E964 /* DateTimeLedContoller.m in Sources */,
+				294E9BB5176CE1DE0021E964 /* LedSpriteContainer.m in Sources */,
+				299D2011176D2086002A5D6B /* WCGraphicUtilities.m in Sources */,
+				294E9BB8176CE7C20021E964 /* PhysicsClockItemSprite.m in Sources */,
+				294E9B82176B501A0021E964 /* ClockScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294E9B8B176B501A0021E964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294E9B9C176B501B0021E964 /* WeatherClocksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294E9B94176B501B0021E964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294E9B67176B501A0021E964 /* WeatherClocks */;
+			targetProxy = 294E9B93176B501B0021E964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		294E9B76176B501A0021E964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294E9B77176B501A0021E964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		294E9B7C176B501A0021E964 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294E9B7D176B501A0021E964 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		294E9B98176B501B0021E964 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294E9B99176B501B0021E964 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		294E9B9D176B501B0021E964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		294E9B9E176B501B0021E964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		294E9BA0176B501B0021E964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherClocks/WeatherClocks-Prefix.pch";
+				INFOPLIST_FILE = "WeatherClocks/WeatherClocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		294E9BA1176B501B0021E964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherClocks/WeatherClocks-Prefix.pch";
+				INFOPLIST_FILE = "WeatherClocks/WeatherClocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		294E9BA3176B501B0021E964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherClocks.app/Contents/MacOS/WeatherClocks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherClocks/WeatherClocks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WeatherClocksTests/WeatherClocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		294E9BA4176B501B0021E964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeatherClocks.app/Contents/MacOS/WeatherClocks";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherClocks/WeatherClocks-Prefix.pch";
+				INFOPLIST_FILE = "WeatherClocksTests/WeatherClocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		294E9B63176B501A0021E964 /* Build configuration list for PBXProject "WeatherClocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294E9B9D176B501B0021E964 /* Debug */,
+				294E9B9E176B501B0021E964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294E9B9F176B501B0021E964 /* Build configuration list for PBXNativeTarget "WeatherClocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294E9BA0176B501B0021E964 /* Debug */,
+				294E9BA1176B501B0021E964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294E9BA2176B501B0021E964 /* Build configuration list for PBXNativeTarget "WeatherClocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294E9BA3176B501B0021E964 /* Debug */,
+				294E9BA4176B501B0021E964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 294E9B60176B501A0021E964 /* Project object */;
+}
